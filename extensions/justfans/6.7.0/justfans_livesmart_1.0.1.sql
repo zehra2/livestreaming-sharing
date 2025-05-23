@@ -1,0 +1,3 @@
+INSERT INTO `settings` (`key`, `display_name`, `value`, `details`, `type`, `order`, `group`) SELECT 'livesmart.url', 'LiveSmart URL', '', '', 'text', 10000, 'LiveSmart' FROM settings WHERE NOT EXISTS (SELECT * FROM `settings` WHERE `key`='livesmart.url' LIMIT 1) LIMIT 1;
+
+INSERT INTO `settings` (`key`, `display_name`, `value`, `details`, `type`, `order`, `group`) SELECT 'livesmart.allow_streams', 'LiveSmart Enable Stream', '1', '', 'checkbox', 10001, 'LiveSmart' FROM settings WHERE NOT EXISTS (SELECT * FROM `settings` WHERE `key`='livesmart.allow_streams' LIMIT 1) LIMIT 1;

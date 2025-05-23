@@ -1,0 +1,21 @@
+Integration Guide for Support Board 3.6.7
+
+1) Prerequisites
+
+- Make sure you have installed and activated LiveSmart Server Video and installed and activated Support Board Chat v.3.6.7.
+
+- More information about LiveSmart installation you can find here:
+https://livesmart.video/installation-sfu
+
+- More information on how to install and setup Support Board Chat you can find here:
+https://board.support/
+
+- Make sure you have enabled cURL module for your PHP.
+
+2) Integration
+
+- Once you have installed both systems, you can do a backup of your Support Board Chat files. Then you can replace files from extensions/supportboard/3.6.7 in your Support Board Chat folder.
+
+- Then login with your admin account to Support Board Chat admin panel and go to Settings - Miscellaneous, find LiveSmart Settings and fill in the URL where you have installed LiveSmart. For example if Support Board Chat is here https://yourdomain.com/supportboard and LiveSmart is https://yourdomain.com/video, in the LiveSmart URL field, fill in https://yourdomain.com/video
+
+- Email me at contact@livesmart.video if you find difficulties with the integration and setup process.
